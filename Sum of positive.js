@@ -1,8 +1,8 @@
 function positiveSum(arr) {
-    let x=0;
+    let sum=0;
     for (let i = 0; i <arr.length ; i++) {
-        if (arr[i]>0) x=x+arr[i]
+        if (arr[i]>0) sum+=arr[i]
     }
-    return x
+    return sum
 }
 console.log(positiveSum([5,-1,-2,3,-1,5]));
