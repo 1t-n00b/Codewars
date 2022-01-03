@@ -1,6 +1,6 @@
 function defineSuit(card) {
     // good luck
-    switch (card[1]) {
+    switch (card[card.length-1]) {
         case "♣" : return   "clubs"
         case "♠" : return   "spades"
         case "♦" : return   "diamonds"
